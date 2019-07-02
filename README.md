@@ -1,6 +1,6 @@
 # Traffic Congestion Prediction - Didi Dataset
 
-The repository is to detect the abuse, toxic comments over the internet. The data is from [Kaggle competiotion](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/kernels).
+The repository is to detect the abuse, toxic comments over the internet environment. The data is from [Kaggle competiotion](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/kernels).
 
 
 ## Requirements
@@ -32,7 +32,7 @@ The data used to train and validate the model was downloaded from [Kaggle contes
 The data corpus was pre-processed to remove punctuation marks, IP addresses (common in Online Social Platforms), user names and decoded the HTML characters. The resulting corpus was further processed for removal of stopwords, lemmatization, conversion to lowercase characters and creation of word grams/ character grams. However, some common punctuations like !, ? . , were still kept in the model, as they are related to sentence functions or sentence emotions. For example, if a sentence contains a lot of !, the sentence tends to be more angry. Thus, these punctuations were kept and let the model to handle it.
 
 ### Baseline Models
-Below are the results of different baseline models. Logistic regression, SVM and LSTM outperform the other models in terms of accuracy and F1 score. LSTM obtains the highest score in recall, which is the most relevant to our objective of identifying toxic comments in a social platform setting. With such, we decided to use LSTM as the baseline model, and further improved it with feature engineering and data augmentation.
+Below are the results of different baseline models. Logistic regression, SVM and LSTM outperform the other models in terms of accuracy and F1 score. LSTM obtains the highest score in recall, which is the most relevant to our objective of identifying toxic comments in a social platform setting. With such, LSTM was chosen as the baseline model, and further improved it with feature engineering and data augmentation.
 
 |             |     LR     |      NB      |       RF     |   XGBoost    |     SVM      |    LSTM      |
 |-------------|:----------:|:------------:|:------------:|:------------:|:------------:|:------------:|
