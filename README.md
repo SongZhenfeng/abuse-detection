@@ -64,6 +64,7 @@ Below is the final model architecture.
 ![model architecture](imgs/model.png)
 
 And the improved model results are as follows:
+
 |             |     LR     |     SVM      |  LSTM(base)  | LSTM(improved)|
 |-------------|:----------:|:------------:|:------------:|:-------------:|
 | Accuracy    |   0.9746   |    0.9718    |    0.9728    |     0.9876    |
