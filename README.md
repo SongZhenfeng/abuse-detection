@@ -23,7 +23,7 @@ The repository is to detect the abuse, toxic comments over the internet environm
 
 
 
-## Solutiin and Results
+## Solution and Results
 
 ### Data
 The data used to train and validate the model was downloaded from [Kaggle contest Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/kernels), which includes over 100k labeled discussion comments from English Wikipedia. The labelled annotations are based on asking 5000 crowd-workers to rate Wikipedia comments according to their toxicity.
