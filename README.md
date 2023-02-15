@@ -1,4 +1,4 @@
-# Traffic Congestion Prediction - Didi Dataset
+# Toxic Comments Detection
 
 The repository is to detect the abuse, toxic comments over the internet environment. The data is from [Kaggle competiotion](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/kernels).
 
